@@ -3,8 +3,8 @@
 #include <ESP8266WebServer.h>
 #include <DHT.h>
 
-const char *ssid = "EpsilonNET";
-const char *password = "zaq123456";
+const char *ssid = "";
+const char *password = "";
 
 #define pin_sensor_dht D2
 #define type_sensor DHT11
